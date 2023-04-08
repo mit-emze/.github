@@ -1,0 +1,24 @@
+#
+# Ignore emacs backup files
+#
+*~
+\#*\#
+
+#
+# Ignore .nfs temp files
+#
+.nfs*
+
+#
+# Ignore python files
+#
+/**/__pycache__
+
+#
+# Application-specific ignores
+#
+
+#
+# Keep directories containing .gitkeep
+#
+!/**/.gitkeep
